@@ -1,5 +1,5 @@
 name : "Action to be done for greeting"
-on:push
+on: push
 
 jobs:
   build:
