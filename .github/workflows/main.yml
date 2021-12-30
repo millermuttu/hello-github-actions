@@ -1,5 +1,8 @@
 name : "Action to be done for greeting"
-on: push
+# on: push
+on:
+  schedule:
+    - cron:  '30 1 * * *'
 
 jobs:
   build:
